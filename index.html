@@ -63,6 +63,31 @@
 
     <!-- Footer Section -->
     <div class="footer-container">
+      <button class="open-button" onclick="openForm()">Contact us</button>
+
+      <div class="form-popup" id="myForm">
+      <form action="/action_page.php" class="form-container">
+      <h1>Send</h1>
+
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="msg"><b>Message</b></label>
+      <input type="message" placeholder="Enter Message" name="msg" required>
+
+      <button type="submit" class="btn">Send</button>
+      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+  </div>
+  <script>
+      function openForm() {
+        document.getElementById("myForm").style.display = "block";
+      }
+      
+      function closeForm() {
+        document.getElementById("myForm").style.display = "none";
+      }
+      </script>
       <div class="social-media">
         <div class="social-media-wrap">
           <div class="footer-logo">
@@ -84,12 +109,13 @@
             </a>
             <a href="/" class="social-icon-link" target="_blank">
               <i class="fa fa-github"></i>
+           
             </a>
-          </div>
+            </div>
         </div>
-      </div>
-    </div>
+        </div>
+        </div>
 
-    <script src="script.js"></script>
+      <script src="script.js"></script>
   </body>
 </html>
