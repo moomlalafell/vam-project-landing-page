@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-  
+
   <body>
     <!-- Navbar Section -->
     <nav class="navbar">
@@ -35,84 +35,80 @@
 
     <!-- VAM Overview Section -->
     <div class="overview">
-      <h1>Meet Lovely Girls</h1>
+      <h1>Meet The Lovely Girls</h1>
       <div class="overview-container">
         <div class="overview-card">
           <img src="images/Val.png" alt="val.png">
           <h2>Valentine</h2>
           <p>Meet Valentine, the coffee-loving data engineer who thrives on conquering complex challenges both indoors and out. With a passion for coding and adventure, she brings a unique perspective to every project. Let’s build something great together!</p>
-          <button>Go To Website</button>
         </div>
         <div class="overview-card">
           <img src="images/Alexa.png" alt="alexa.png">
           <h2>Alexa</h2>
           <p>Meet Alexa, the coffee-loving data engineer who thrives on conquering complex challenges both indoors and out. With a passion for coding and adventure, she brings a unique perspective to every project. Let’s build something great together!</p>
-          <button>Go To Website</button>
         </div>
         <div class="overview-card">
           <img src="images/Mo.png" alt="mo.png">
           <h2>Mo</h2>
           <p>Meet Mo, the coffee-loving data engineer who thrives on conquering complex challenges both indoors and out. With a passion for coding and adventure, she brings a unique perspective to every project. Let’s build something great together!</p>
-          <button>Go To Website</button>
         </div>
       </div>
     </div>
 
     <!-- Footer Section -->
-    <div class="footer-container">
-      <button class="open-button" onclick="openForm()">Contact us</button>
-
-      <div class="form-popup" id="myForm">
-      <form action="/action_page.php" class="form-container">
-      <h1>Send</h1>
-
-      <label for="email"><b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
-
-      <label for="msg"><b>Message</b></label>
-      <input type="message" placeholder="Enter Message" name="msg" required>
-
-      <button type="submit" class="btn">Send</button>
-      <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-  </form>
-  </div>
-  <script>
-      function openForm() {
-        document.getElementById("myForm").style.display = "block";
-      }
-      
-      function closeForm() {
-        document.getElementById("myForm").style.display = "none";
-      }
-      </script>
-      <div class="social-media">
-        <div class="social-media-wrap">
-          <div class="footer-logo">
-            <a href="index.html" id="footer-logo">V.A.M.</a>
-          </div>
-          <p class="website-rights">© V.A.M. 2023. All rights reserved</p>
-          <div class="social-icons">
-            <a href="/" class="social-icon-link" target="_blank">
-              <i class="fa fa-facebook"></i>
-            </a>
-            <a href="/" class="social-icon-link" target="_blank">
-              <i class="fa fa-twitter"></i>
-            </a>
-            <a href="/" class="social-icon-link" target="_blank">
-              <i class="fa fa-linkedin"></i>
-            </a>
-            <a href="/" class="social-icon-link" target="_blank">
-              <i class="fa fa-youtube"></i>
-            </a>
-            <a href="/" class="social-icon-link" target="_blank">
-              <i class="fa fa-github"></i>
-           
-            </a>
+    <footer>
+      <div class="footer-container">
+        <button class="open-button" onclick="openForm()">Contact us</button>
+        <div class="form-popup" id="myForm">
+          <form action="/action_page.php" class="form-container">
+            <h1>Send</h1>
+        
+            <label for="email"><b>Email</b></label>
+            <input type="text" placeholder="Enter Email" name="email" required>
+        
+            <label for="msg"><b>Message</b></label>
+            <input type="message" placeholder="Enter Message" name="msg" required>
+        
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+          </form>
+        </div>
+        <script>
+          function openForm() {
+            document.getElementById("myForm").style.display = "block";
+          }
+                
+          function closeForm() {
+            document.getElementById("myForm").style.display = "none";
+          }
+        </script>
+        <div class="social-media">
+          <div class="social-media-wrap">
+            <div class="footer-logo">
+              <a href="index.html" id="footer-logo">V.A.M.</a>
             </div>
+            <p class="website-rights">© V.A.M. 2023. All rights reserved</p>
+            <div class="social-icons">
+              <a href="/" class="social-icon-link" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+              <a href="/" class="social-icon-link" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a href="/" class="social-icon-link" target="_blank">
+                <i class="fa fa-linkedin"></i>
+              </a>
+              <a href="/" class="social-icon-link" target="_blank">
+                <i class="fa fa-youtube"></i>
+              </a>
+              <a href="/" class="social-icon-link" target="_blank">
+                <i class="fa fa-github"></i>
+              </a>
+            </div>
+          </div>
         </div>
-        </div>
-        </div>
-
-      <script src="script.js"></script>
+      </div>
+    </footer>
+    <script src="script.js"></script>
   </body>
 </html>
