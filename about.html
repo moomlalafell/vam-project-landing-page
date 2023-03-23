@@ -1,93 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>V.A.M. Portfolios</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>V.A.M. Portfolios</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="images/logo circle.png" type="image/x-icon"/>
+        <link rel="shortcut icon" href="images/logo circle.png" type="image/x-icon"/>
   </head>
 
   <body>
-    <!-- Navbar Section -->
-    <nav class="navbar">
-      <div class="navbar-container">
-        <a href="/" id="navbar-logo">V.A.M.</a>
-        <div class="navbar-toggle" id="mobile-menu">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </div>
-        <ul class="navbar-menu">
-          <li class="navbar-item">
-            <a href="index.html" class="navbar-links">Home</a>
-          </li>
-          <li class="navbar-item">
-            <a href="about.html" class="navbar-links">About Us</a>
-          </li>
-          <li class="navbar-item">
-            <a href="contact.html" class="navbar-links">Contact Us</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-
-    <!-- Footer Section -->
-    <div class="footer-container">
-        <button class="open-button" onclick="openForm()">Contact us</button>
-  
-        <div class="form-popup" id="myForm">
-        <form action="/action_page.php" class="form-container">
-        <h1>Send</h1>
-  
-        <label for="email"><b>Email</b></label>
-        <input type="text" placeholder="Enter Email" name="email" required>
-  
-        <label for="msg"><b>Message</b></label>
-        <input type="message" placeholder="Enter Message" name="msg" required>
-  
-        <button type="submit" class="btn">Send</button>
-        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-    </form>
-    </div>
-    <script>
-        function openForm() {
-          document.getElementById("myForm").style.display = "block";
-        }
-        
-        function closeForm() {
-          document.getElementById("myForm").style.display = "none";
-        }
-        </script>
-        <div class="social-media">
-          <div class="social-media-wrap">
-            <div class="footer-logo">
-              <a href="index.html" id="footer-logo">V.A.M.</a>
+        <!-- Navbar Section -->
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="index.html" id="navbar-logo">V.A.M.</a>
+                <div class="navbar-toggle" id="mobile-menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <ul class="navbar-menu">
+                    <li class="navbar-item">
+                        <a href="index.html" class="navbar-links">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="about.html" class="navbar-links">About Us</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="contact.html" class="navbar-links">Contact Us</a>
+                    </li>
+                </ul>
             </div>
-            <p class="website-rights">© V.A.M. 2023. All rights reserved</p>
-            <div class="social-icons">
-              <a href="/" class="social-icon-link" target="_blank">
-                <i class="fa fa-facebook"></i>
-              </a>
-              <a href="/" class="social-icon-link" target="_blank">
-                <i class="fa fa-twitter"></i>
-              </a>
-              <a href="/" class="social-icon-link" target="_blank">
-                <i class="fa fa-linkedin"></i>
-              </a>
-              <a href="/" class="social-icon-link" target="_blank">
-                <i class="fa fa-youtube"></i>
-              </a>
-              <a href="/" class="social-icon-link" target="_blank">
-                <i class="fa fa-github"></i>
-             
-              </a>
-              </div>
-          </div>
-          </div>
-          </div>
-  
+        </nav>
+
+        <!-- Footer Section -->
+        <footer>
+            <div class="footer-container">
+                <button class="open-button" onclick="openForm()">Contact us</button>
+                <div class="form-popup" id="myForm">
+                    <form action="/action_page.php" class="form-container">
+                        <h1>Send</h1>
+        
+                        <label for="email"><b>Email</b></label>
+                        <input type="text" placeholder="Enter Email" name="email" required>
+        
+                        <label for="msg"><b>Message</b></label>
+                        <input type="message" placeholder="Enter Message" name="msg" required>
+        
+                        <button type="submit" class="btn">Send</button>
+                        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+                    </form>
+                </div>
+                <script>
+                    function openForm() {
+                        document.getElementById("myForm").style.display = "block";
+                    }
+                
+                    function closeForm() {
+                    document.getElementById("myForm").style.display = "none";
+                    }
+                </script>
+                <div class="social-media">
+                    <div class="social-media-wrap">
+                        <div class="footer-logo">
+                            <a href="index.html" id="footer-logo">V.A.M.</a>
+                        </div>
+                        <p class="website-rights">© V.A.M. 2023. All rights reserved</p>
+                        <div class="social-icons">
+                            <a href="/" class="social-icon-link" target="_blank">
+                                <i class="fa fa-facebook"></i>
+                            </a>
+                            <a href="/" class="social-icon-link" target="_blank">
+                                <i class="fa fa-twitter"></i>
+                            </a>
+                            <a href="/" class="social-icon-link" target="_blank">
+                                <i class="fa fa-linkedin"></i>
+                            </a>
+                            <a href="/" class="social-icon-link" target="_blank">
+                                <i class="fa fa-youtube"></i>
+                            </a>
+                            <a href="/" class="social-icon-link" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </footer>
         <script src="script.js"></script>
     </body>
-  </html>
+</html>
