@@ -219,20 +219,6 @@ body {
     right: 30px;
 }
 
-.overview-card button {
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    background-color: #f77062;
-    position: absolute;
-    top: 440px;
-    left: 30px;
-    font-size: 1rem;
-    cursor: pointer;
-}
-
 .overview-card:hover {
     transform: scale(1.075);
     transition: 0.2s ease-in;
@@ -246,6 +232,7 @@ body {
     .overview h1 {
         font-size: 2rem;
         margin-top: 4rem;
+        text-align: center;
     }
 }
 
